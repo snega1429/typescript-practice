@@ -35,7 +35,7 @@ for (let i: number = 1; i <= 10; i++) {
     city : "chennai",
  };
  
- for(let key in person) {
+ for(let key in Person) {
    console.log(key, ":", Person[key as keyof Person]);
  }
 
